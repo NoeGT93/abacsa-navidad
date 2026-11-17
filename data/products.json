@@ -1,0 +1,548 @@
+[
+  {
+    "id": 1,
+    "code": "99905134",
+    "description": "ADORNO NAVIDEÑO 7CM X 2PZS -PZA- 99905134",
+    "quantity": 1,
+    "prices": {
+      "unit": 39,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 2,
+    "code": "CB-L8824Y544",
+    "description": "ESFERA GRANDE BOTE CB-L8824Y544",
+    "quantity": 1,
+    "prices": {
+      "unit": 70,
+      "dozen": 60,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 3,
+    "code": "20250429051",
+    "description": "XD-66006 CAJA ESFERA NAVIDEÑA 6CM (12 PCS) 20250429051",
+    "quantity": 1,
+    "prices": {
+      "unit": 33,
+      "dozen": 28,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 4,
+    "code": "HD26-424",
+    "description": "PASCUA CON BRILLANTE HD26-424",
+    "quantity": 1,
+    "prices": {
+      "unit": 25,
+      "dozen": 21,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 5,
+    "code": "20250428112",
+    "description": "23H-207 ADORNO NAVIDEÑO SANTA 22*15 20250428112",
+    "quantity": 1,
+    "prices": {
+      "unit": 42,
+      "dozen": 35,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 6,
+    "code": "9992303860",
+    "description": "ADORNO NAVIDEÑO TROMPETA 9992303860",
+    "quantity": 1,
+    "prices": {
+      "unit": 36,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 7,
+    "code": "9992305021",
+    "description": "ADORNO NAVIDEÑO CORONA DE 25 CM 992305021",
+    "quantity": 1,
+    "prices": {
+      "unit": 8,
+      "dozen": 4.75,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 8,
+    "code": "999055229",
+    "description": "ADORNO NAVIDEÑO 3CM X 9PZS (SET) 999055229",
+    "quantity": 1,
+    "prices": {
+      "unit": 39,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 9,
+    "code": "999891764",
+    "description": "ADORNO NAVIDEÑO BOLAS 6CM X 4PZS -PZA- 999891764",
+    "quantity": 1,
+    "prices": {
+      "unit": 39,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 10,
+    "code": "9992404060",
+    "description": "ADORNO NAVIDEÑO COLGANTE FELIZ NAVIDAD 9992404060",
+    "quantity": 1,
+    "prices": {
+      "unit": 6,
+      "dozen": 4,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 11,
+    "code": "999891444",
+    "description": "ADORNO NAVIDEÑO BOLAS 6CM X 4 PZS -SET - 999891444",
+    "quantity": 1,
+    "prices": {
+      "unit": 39,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 12,
+    "code": "9992303828",
+    "description": "ADORNO NAVIDEÑO REGALITO 9992303828",
+    "quantity": 1,
+    "prices": {
+      "unit": 25,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 13,
+    "code": "999890642",
+    "description": "ADORNO NAVIDEÑO BOLA 5X4 SET 999890642",
+    "quantity": 1,
+    "prices": {
+      "unit": 39,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 14,
+    "code": "20250429108",
+    "description": "GORRO NAVIDEÑO COPO BRILLANTE 20250429108",
+    "quantity": 1,
+    "prices": {
+      "unit": 36,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 15,
+    "code": "99905045",
+    "description": "ADORNO NAVIDEÑO SET MOÑAS PEQUEÑAS 6CM X 12PCS 99905045",
+    "quantity": 1,
+    "prices": {
+      "unit": 39,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 16,
+    "code": "9992404063",
+    "description": "ADORNO NAVIDEÑO COLGANTE SANTA CLAUSE 9992404063",
+    "quantity": 1,
+    "prices": {
+      "unit": 2,
+      "dozen": 1.75,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 17,
+    "code": "9992305056",
+    "description": "ADORNO NAVIDEÑO CORONA C/ADORNO 25CM 9992305056",
+    "quantity": 1,
+    "prices": {
+      "unit": 24,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 18,
+    "code": "9992404008",
+    "description": "ADORNO NAVIDEÑO BOTA CON NIEVE 16X12.5 9992404008",
+    "quantity": 1,
+    "prices": {
+      "unit": 5,
+      "dozen": 3.25,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 19,
+    "code": "9992404073",
+    "description": "ADORNO NAVIDEÑOVENADO 8.5*10.5",
+    "quantity": 1,
+    "prices": {
+      "unit": 27,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 20,
+    "code": "9992404067",
+    "description": "ADORNO NAVIDEÑO VENADO L 2PZS 14.5*5 CM",
+    "quantity": 1,
+    "prices": {
+      "unit": 39,
+      "dozen": 36,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 21,
+    "code": "467",
+    "description": "JUGUETE TROMPO COBRA GRANDE",
+    "quantity": 1,
+    "prices": {
+      "unit": 20,
+      "dozen": 16,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 22,
+    "code": "20240601168",
+    "description": "PELUCHE SPIDER MAN 23CM 20240601112",
+    "quantity": 1,
+    "prices": {
+      "unit": 20,
+      "dozen": 18,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 23,
+    "code": "20230802084",
+    "description": "PELUCHE PLUTO 40 CM 20230802084",
+    "quantity": 1,
+    "prices": {
+      "unit": 50,
+      "dozen": 42,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 24,
+    "code": "20231014005",
+    "description": "PELUCHE GOOMBA (MARIO BROS) 20231014005",
+    "quantity": 1,
+    "prices": {
+      "unit": 30,
+      "dozen": 22,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 25,
+    "code": "20240601112",
+    "description": "PELUCHE PIKACHU 30CM 20240601112",
+    "quantity": 1,
+    "prices": {
+      "unit": 45,
+      "dozen": 40,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 26,
+    "code": "99989053",
+    "description": "ADORNO NAVIDEÑO BRICHO VERDE OSCURO 99989053",
+    "quantity": 1,
+    "prices": {
+      "unit": 36,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 27,
+    "code": "9992404062",
+    "description": "ADORNO NAVIDEÑO COLGANTE CASITA 9992404062",
+    "quantity": 1,
+    "prices": {
+      "unit": 5,
+      "dozen": 3.5,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 28,
+    "code": "JQ261543",
+    "description": "JUGUETE SQUISHY PASTELITO JUMBO JQ261542",
+    "quantity": 1,
+    "prices": {
+      "unit": 30,
+      "dozen": 25,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 29,
+    "code": "666661702475",
+    "description": "GORRO CON LUZ DE PERSONAJES SURTIDOS (12)",
+    "quantity": 1,
+    "prices": {
+      "unit": 132,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 30,
+    "code": "471",
+    "description": "JUGUETE TROMPO COBRA JUMBO",
+    "quantity": 1,
+    "prices": {
+      "unit": 22,
+      "dozen": 18.5,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 31,
+    "code": "510",
+    "description": "JUGUETE TROMPO SILVER",
+    "quantity": 1,
+    "prices": {
+      "unit": 20,
+      "dozen": 16,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 32,
+    "code": "METMP-KCOB",
+    "description": "TROMPO KING COBRA",
+    "quantity": 1,
+    "prices": {
+      "unit": 20,
+      "dozen": 16,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 33,
+    "code": "548",
+    "description": "JUGUETE TROMPO COBRITA",
+    "quantity": 1,
+    "prices": {
+      "unit": 15,
+      "dozen": 12.5,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 34,
+    "code": "468",
+    "description": "JUGUETE TROMPO AVISPON GRANDE",
+    "quantity": 1,
+    "prices": {
+      "unit": 20,
+      "dozen": 16,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 35,
+    "code": "20250428081",
+    "description": "23H-14 ADORNO NAVIDEÑO SANTA/ESFERAS 50*12 20250428081",
+    "quantity": 1,
+    "prices": {
+      "unit": 40,
+      "dozen": 30,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 36,
+    "code": "9992404011",
+    "description": "ADORNO NAVIDEÑO CORONA C/SANTA DE 18CM 9992404011",
+    "quantity": 1,
+    "prices": {
+      "unit": 12,
+      "dozen": 8.5,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 37,
+    "code": "9992305060",
+    "description": "ADORNO NAVIDEÑO CORONA PASCUAS 9992305060",
+    "quantity": 1,
+    "prices": {
+      "unit": 36,
+      "dozen": 32.5,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 38,
+    "code": "9992404013",
+    "description": "ADORNO NAVIDEÑO CORONA C/SANTA DE 25CM 9992404013",
+    "quantity": 1,
+    "prices": {
+      "unit": 18,
+      "dozen": 15.5,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  },
+  {
+    "id": 39,
+    "code": "333-3",
+    "description": "PASCUA BRILLANTE BLANCO, CORINTO Y ROJO PAQ. 10PCS",
+    "quantity": 1,
+    "prices": {
+      "unit": 135,
+      "dozen": null,
+      "bundle": null,
+      "distributor": null
+    },
+    "family": null,
+    "brand": null
+  }
+]

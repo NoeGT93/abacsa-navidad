@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "abacsa-navidad",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
+  "services": [{ "binding": "WORKER_SELF_REFERENCE", "service": "abacsa-navidad" }],
+  // Fotografías y su asociación con los códigos (lib/photos.js)
+  "r2_buckets": [{ "binding": "PHOTOS", "bucket_name": "abacsa-navidad-fotos" }],
+  // Máx. 10 intentos de inicio de sesión del admin por minuto (app/api/admin/session)
+  "ratelimits": [{ "name": "LOGIN_LIMITER", "namespace_id": "2001", "simple": { "limit": 10, "period": 60 } },
+    // Máx. 60 avisos del contador propio por visitante y minuto (app/api/m)
+    { "name": "METRICS_LIMITER", "namespace_id": "2002", "simple": { "limit": 60, "period": 60 } }],
+  // Sin URLs públicas por versión: solo responde el dominio principal
+  "preview_urls": false,
+  "observability": { "enabled": true }
+  // Secreto (no va en el repositorio): npx wrangler secret put ADMIN_PASSWORD
+}
