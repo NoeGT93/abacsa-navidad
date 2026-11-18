@@ -51,7 +51,7 @@ export default async function Home() {
                   <div className="hero-track">
                     {[...col, ...col].map((p, i) => (
                       <div key={i} className="hero-tile">
-                        <Image src={p.mainImage} alt="" fill sizes="180px" priority={i < 2} />
+                        <Image src={p.mainImage} alt="" fill sizes="180px" loading="eager" />
                       </div>
                     ))}
                   </div>
