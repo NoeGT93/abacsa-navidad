@@ -164,7 +164,11 @@ button, a, [role="button"], label.btn { touch-action: manipulation; -webkit-user
 @media (hover: hover) { .hero-tile:hover img { transform: scale(1.05); } }
 /* Móvil: como en el diseño, los productos quedan cerca del inicio */
 @media (max-width: 899px) {
-  .hero-wall, .hero-features { display: none; }
+  .hero-features { display: none; }
+  /* Columnas más bajas debajo del texto (el gap se mantiene en 14px: lo usa el cálculo de la animación) */
+  .hero-wall { height: 300px; margin-inline: -4px; }
+  .hero-tile { border-radius: 14px; }
+  .hero-price { left: 5px; bottom: 5px; padding: 2px 7px; font-size: 10px; }
   .hero-grid { padding-block: 24px 28px; }
   .hero h1 { font-size: 28px; }
 }
