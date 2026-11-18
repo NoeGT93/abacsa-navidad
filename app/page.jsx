@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { getProducts } from "@/lib/catalog";
-import { CATEGORIES } from "@/lib/config";
+import { CATEGORIES, money } from "@/lib/config";
 import ProductCard from "@/components/ProductCard";
 
 // Productos que encabezan las columnas de fotos del banner (cambiar aquí).
@@ -50,9 +50,13 @@ export default async function Home() {
                   {/* La lista va dos veces: al llegar a la mitad, la animación vuelve al inicio sin salto */}
                   <div className="hero-track">
                     {[...col, ...col].map((p, i) => (
-                      <div key={i} className="hero-tile">
-                        <Image src={p.mainImage} alt="" fill sizes="180px" loading="eager" />
-                      </div>
+                      // Fuera del orden de tabulación: los mismos productos están en "Productos destacados"
+                      <Link key={i} href={`/producto/${encodeURIComponent(p.code)}`} className="hero-tile" tabIndex={-1}>
+                        <Image src={p.mainImage} alt="" fill sizes="200px" loading="eager" />
+                        <span className="hero-price">
+                          {p.prices.dozen != null ? <>Docena <b>{money(p.prices.dozen)}</b> c/u</> : <><b>{money(p.prices.unit)}</b> c/u</>}
+                        </span>
+                      </Link>
                     ))}
                   </div>
                 </div>
