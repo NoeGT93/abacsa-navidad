@@ -4,8 +4,8 @@ import { getProducts } from "@/lib/catalog";
 import { CATEGORIES } from "@/lib/config";
 import ProductCard from "@/components/ProductCard";
 
-// Productos cuyas fotos principales forman la composición del banner (cambiar aquí).
-// Si no tienen foto, se usan los primeros productos con foto.
+// Productos que encabezan las columnas de fotos del banner (cambiar aquí).
+// Después siguen los demás productos con foto.
 const HERO_CODES = ["20250429051", "9992305060", "20230802084"];
 
 export default async function Home() {
@@ -14,7 +14,10 @@ export default async function Home() {
   // Destacados: 12 productos (3 filas en escritorio), primero los que tienen foto, en el orden del Excel.
   const featured = [...withPhoto, ...products.filter((p) => !p.mainImage)].slice(0, 12);
   const heroPick = [...HERO_CODES.map((c) => withPhoto.find((p) => p.code === c)).filter(Boolean), ...withPhoto];
-  const heroPhotos = [...new Set(heroPick)].slice(0, 3);
+  const heroPhotos = [...new Set(heroPick)].slice(0, 18);
+  // 3 columnas que se desplazan en bucle; con pocas fotos se repiten para llenar la altura
+  const pool = heroPhotos.length ? Array.from({ length: Math.max(heroPhotos.length, 12) }, (_, i) => heroPhotos[i % heroPhotos.length]) : [];
+  const columns = [0, 1, 2].map((c) => pool.filter((_, i) => i % 3 === c));
 
   const categories = CATEGORIES.map((c) => {
     const inCat = products.filter((p) => p.category === c.key);
@@ -27,7 +30,7 @@ export default async function Home() {
         <div className="wrap hero-grid">
           <div className="hero-copy">
             <p className="hero-tagline">Temporada navideña ABACSA</p>
-            <h1>Todo para decorar y regalar esta Navidad.</h1>
+            <h1>Todo para decorar y regalar <span>esta Navidad.</span></h1>
             <p className="lead">Adornos, esferas, coronas, juguetes y peluches a buenos precios, al detalle o por mayor.</p>
             <div className="hero-row">
               <Link href="/catalogo" className="btn btn-primary btn-hero">
@@ -40,11 +43,18 @@ export default async function Home() {
               </ul>
             </div>
           </div>
-          {heroPhotos.length > 0 && (
-            <div className="hero-stack" aria-hidden="true">
-              {heroPhotos.map((p, i) => (
-                <div key={p.code} className={`hero-tile hero-tile-${i}`}>
-                  <Image src={p.mainImage} alt="" fill sizes="(max-width: 900px) 50vw, 340px" priority={i === 0} />
+          {pool.length > 0 && (
+            <div className="hero-wall" aria-hidden="true">
+              {columns.map((col, c) => (
+                <div key={c} className="hero-col">
+                  {/* La lista va dos veces: al llegar a la mitad, la animación vuelve al inicio sin salto */}
+                  <div className="hero-track">
+                    {[...col, ...col].map((p, i) => (
+                      <div key={i} className="hero-tile">
+                        <Image src={p.mainImage} alt="" fill sizes="180px" priority={i < 2} />
+                      </div>
+                    ))}
+                  </div>
                 </div>
               ))}
             </div>
